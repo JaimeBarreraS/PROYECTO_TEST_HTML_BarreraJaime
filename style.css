@@ -1,0 +1,126 @@
+@font-face{
+    font-family: Myriad_Pro_Light;
+    src: url(/font/MyriadPro-Light.otf);
+}
+@font-face{
+    font-family: Myriad_Pro_Regular;
+    src: url(/font/MYRIADPRO-REGULAR.OTF);
+}
+@font-face{
+    font-family: Myriad_Pro_Bold;
+    src: url(/font/MYRIADPRO-BOLD.OTF);
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+}
+.container{
+    position: absolute;
+    width: 100vw;
+    height: 200vh;
+}
+/* ==========================================*/
+/* ================ PAGINA UNO ==============*/
+/* ==========================================*/
+.invisible{
+    position: absolute;
+    left: 50vw;
+    width: 1vw;
+    height: 1vw;
+}
+.fondo{
+    position: absolute;
+    top: 8.65vw;
+    width: 100%;
+    height: 52vw;
+}
+
+/* ==========================================*/
+.menu_bar{
+    position:fixed;
+    width: 100%;
+    background-color: #3367cc;
+    height: 9vw;
+    z-index: 1;
+}
+.logo_gobierno{
+    position: absolute;
+    top: 2.55vw;
+    left: 41vw;
+    width: 18vw;
+}
+.letter1,
+.letter2,
+.letter3{
+    font-family: Myriad_Pro_Regular;
+    position: absolute;
+    top: 3.5vw;
+    font-size: 1.5vw;
+}
+.letter1{
+    color: white;
+    left: 14vw;
+
+}
+.letter2{
+    color: white;
+    left: 27vw;
+}
+.letter3{
+    color: white;
+    left: 68vw;
+}
+.letter4{
+    font-family: Myriad_Pro_Regular;
+    position: absolute;
+    top: 3.2vw;
+    font-size: 1.5vw;
+    left: 81vw;
+    color: black;
+    background-color: white;
+    border-radius: 2vw;
+    width: 12vw;
+    height: 2.3vw;
+    text-align: center;
+    padding-top: 0.3vw;
+}
+/* ==========================================*/
+.consulta{
+    position: absolute;
+    top: 13.5vw;
+    left: 6vw;
+    width: 32.6vw;
+    height: 41.5vw;
+    background-color: white;
+    border-radius: 1.5vw;
+}
+.ingreso{
+    position: absolute;
+    font-size: 2.8vw;
+    text-align: center;
+    font-family: Myriad_Pro_Light;
+    top: 29.5vw;
+    left: 59.5vw;
+    width: 23vw;
+}
+.debido{
+    position: absolute;
+    font-size: 1.5vw;
+    text-align: center;
+    font-family: Myriad_Pro_Light;
+    line-height: 1.5;
+    top: 33vw;
+    left: 53vw;
+    width: 35vw;
+}
+/* ==========================================*/
+/* ================ PAGINA DOS ==============*/
+/* ==========================================*/
+.pregu{
+    position:absolute;
+    top: 100vw;
+}
