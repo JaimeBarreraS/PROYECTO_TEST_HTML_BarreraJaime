@@ -14,17 +14,9 @@ Tecnologías utilizadas:
 
 Estructura del proyecto:
 
-proyecto/
-├── font/
-│   ├── MyriadPro-Light.otf
-│   ├── MYRIADPRO-REGULAR.OTF
-│   └── MYRIADPRO-BOLD.OTF
-├── image/
-│   ├── Fondo.png
-│   └── logo_gobierno.png
-├── index.html
-├── style.css
-└── README.md
+
+![Captura de pantalla 2024-06-13 191431](https://github.com/JaimeBarreraS/PROYECTO_TEST_HTML_BarreraJaime/assets/160262707/30d0761e-a044-4d2a-a1bb-15bdaab09afc)
+
 
 - La carpeta font/ contiene las fuentes personalizadas utilizadas en el proyecto.
 - La carpeta image/ contiene las imágenes utilizadas en la página web.
