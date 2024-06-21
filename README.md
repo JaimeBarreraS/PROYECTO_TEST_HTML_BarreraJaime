@@ -22,24 +22,7 @@ La página incluye un encabezado fijo con el logotipo del gobierno y una barra d
 
 ## Estructura del proyecto
 
-proyecto/
-├── font/
-│   ├── MyriadPro-Light.otf
-│   ├── MYRIADPRO-REGULAR.OTF
-│   └── MYRIADPRO-BOLD.OTF
-├── image/
-│   ├── Fondo.png
-│   ├── logo_gobierno.png
-│   ├── image.png
-│   ├── flecha.svg
-│   ├── Bancamia.png
-│   ├── logo-bancolombia.png
-│   ├── Banco_Caja_Social.png
-│   ├── Movii.png
-│   └── Daviplata.png
-├── index.html
-├── style.css
-└── README.md
+![alt text](<Captura de pantalla 2024-06-21 183238.png>)
 
 - La carpeta `font/` contiene las fuentes personalizadas utilizadas en el proyecto.
 - La carpeta `image/` contiene las imágenes utilizadas en la página web.
