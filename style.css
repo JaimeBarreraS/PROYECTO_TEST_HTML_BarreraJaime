@@ -39,7 +39,7 @@ body{
     height: 52vw;
 }
 
-/* ==========================================*/
+/* =============== BARRA AZUL ==============*/
 .menu_bar{
     position:fixed;
     width: 100%;
@@ -87,8 +87,10 @@ body{
     height: 2.3vw;
     text-align: center;
     padding-top: 0.3vw;
+    border: 0.1vw solid #808080;
 }
-/* ==========================================*/
+
+/* ================= CUADRO CONSULTA ==============*/
 .consulta{
     position: absolute;
     top: 13.5vw;
@@ -98,6 +100,182 @@ body{
     background-color: white;
     border-radius: 1.5vw;
 }
+.tipo_documento {
+    position: absolute;
+    font-family: Myriad_Pro_Regular;
+    font-size: 0.8vw;;
+    top: 11.28vw;
+    left: 1.5vw;
+    color: #000000;
+}
+
+#documento {
+    position: absolute;
+    top: 13.3vw;
+    left: 1.5vw;
+    width: 29.5vw;
+    height: 2.2vw;
+    font-family: Myriad_Pro_Regular;
+    font-size: 0.8vw;
+    color: rgb(168, 168, 168);
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 0.11vw solid #b6b6b6;
+    padding-left: 0.5vw
+}
+
+.select_document::after {
+    content: "";
+    position: absolute;
+    top: 14.1vw;
+    right: 2.1vw;
+    width: 1.2vw;
+    height: 1.2vw;
+    background-image: url(/image/flecha.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    pointer-events: none;
+}
+
+#documento::-ms-expand {
+    display: none;
+}
+
+.numero_documento{
+    position: absolute;
+    font-family: Myriad_Pro_Regular;
+    font-size: 0.8vw;;
+    top: 15.1vw;
+    left: 1.5vw;
+    color: #000000;
+}
+.numero{
+    position: absolute;
+    top: 17.2vw;
+    left: 1.5vw;
+    width: 29vw;
+    height: 1.8vw;
+    font-family: Myriad_Pro_Regular;
+    font-size: 0.8vw;
+    border: 0.11vw solid #b6b6b6;
+}
+.primer_nombre{
+    position: absolute;
+    font-family: Myriad_Pro_Regular;
+    font-size: 0.8vw;;
+    top: 19vw;
+    left: 1.5vw;
+    color: #000000;
+}
+.nombre{
+    position: absolute;
+    top: 21vw;
+    left: 1.5vw;
+    width: 29vw;
+    height: 1.8vw;
+    font-family: Myriad_Pro_Regular;
+    font-size: 0.8vw;
+    border: 0.11vw solid #b6b6b6;
+}
+.primer_apellido{
+    position: absolute;
+    font-family: Myriad_Pro_Regular;
+    font-size: 0.8vw;;
+    top: 23vw;
+    left: 1.5vw;
+    color: #000000;
+}
+.apellido{
+    position: absolute;
+    top: 24.9vw;
+    left: 1.5vw;
+    width: 29vw;
+    height: 1.8vw;
+    font-family: Myriad_Pro_Regular;
+    font-size: 0.8vw;
+    border: 0.11vw solid #b6b6b6;
+}
+.fecha_documento{
+    position: absolute;
+    font-family: Myriad_Pro_Regular;
+    font-size: 0.8vw;;
+    top: 26.8vw;
+    left: 1.5vw;
+    color: #000000;
+}
+.fecha{
+    position: absolute;
+    top: 28.8vw;
+    left: 1.5vw;
+    width: 28.75vw;
+    height: 1.9vw;
+    font-family: Myriad_Pro_Regular;
+    font-size: 0.8vw;
+    border: 0.11vw solid #b6b6b6;
+    padding-left: 0.5vw;
+    color: rgb(168, 168, 168);
+    cursor: pointer;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background-image: url('/image/calendar.svg');
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+
+.numero_telefono{
+    position: absolute;
+    font-family: Myriad_Pro_Regular;
+    font-size: 0.8vw;;
+    top: 30.6vw;
+    left: 1.5vw;
+    color: #000000;
+}
+.num_telefono{
+    position: absolute;
+    top: 32.5vw;
+    left: 1.5vw;
+    width: 29vw;
+    height: 1.8vw;
+    font-family: Myriad_Pro_Regular;
+    font-size: 0.8vw;
+    border: 0.11vw solid #b6b6b6;
+}
+.Boton_Consultar{
+    position: absolute;
+    top: 37vw;
+    left: 11.5vw;
+    color: rgb(255, 255, 255);
+    background-color:#157ffb;
+    border-radius: 0.9vw;
+    width: 9.5vw;
+    height: 1.8vw;
+    text-align: center;
+    padding-top: 0.7vw;
+    font-family: Myriad_Pro_Light;
+    font-size: 0.9vw;
+    border: 0.1vw solid #808080;
+}
+.consulta_estado{
+    position: absolute;
+    font-family: Myriad_Pro_Regular;
+    font-size: 2vw;
+    line-height: 1.4;
+    text-align: center;
+    top: 0.8vw;
+    left: 6.5vw;
+}
+.consulta_ingreso{
+    position: absolute;
+    font-family: Myriad_Pro_Regular;
+    font-size: 0.8vw;
+    line-height: 1.5;
+    text-align: center;
+    top: 9.7vw;
+    left: 4vw;
+}
+/* ============ INFORMACION INGRESO ===============*/
 .ingreso{
     position: absolute;
     font-size: 2.8vw;
@@ -112,15 +290,64 @@ body{
     font-size: 1.5vw;
     text-align: center;
     font-family: Myriad_Pro_Light;
-    line-height: 1.5;
-    top: 33vw;
+    line-height: 1.3;
+    top: 33.5vw;
     left: 53vw;
     width: 35vw;
+}
+.Boton_ConocerMas{
+    position: absolute;
+    top: 43vw;
+    left: 66vw;
+    color: rgb(255, 255, 255);
+    background-color:#157ffb;
+    border-radius: 0.9vw;
+    width: 9.5vw;
+    height: 1.8vw;
+    text-align: center;
+    padding-top: 0.7vw;
+    font-family: Myriad_Pro_Light;
+    font-size: 0.9vw;
+    border: 0.1vw solid #808080;
 }
 /* ==========================================*/
 /* ================ PAGINA DOS ==============*/
 /* ==========================================*/
-.pregu{
+.pregunta{
     position:absolute;
-    top: 100vw;
+    font-family: Myriad_Pro_Light;
+    font-size: 3vw;
+    top: 65vw;
+    left: 34vw;
 }
+.info_esquema{
+    position:absolute;
+    font-family: Myriad_Pro_Light;
+    font-size: 1.72vw;
+    line-height: 1.5;
+    text-align: center;
+    top: 74vw;
+    left: 10vw;
+}
+.logo_esquema{
+    position:absolute;
+    top: 68vw;
+    left: 49.3vw;
+    width: 54.3vw;
+}
+.etapas{
+    position:absolute;
+    font-family: Myriad_Pro_Light;
+    font-size: 1.14vw;
+    top: 109vw;
+    left: 22.6vw;
+}
+.flecha_etapa{
+    position:absolute;
+    top: 111vw;
+    left: 29vw;
+    width: 1.5vw;
+}
+/* ==========================================*/
+/* ================ PAGINA TRES =============*/
+/* ==========================================*/

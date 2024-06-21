@@ -8,28 +8,106 @@
 </head>
 <body>
     <div class="container">
+        <!--=================================-->
         <!--============ PAGINA UNO =========-->
+        <!--=================================-->
         <div class="invisible" id="consultar"></div>
         <img class="fondo" src="./image/Fondo.png" alt="">
+        <!--============ BARRA AZUL =========-->
         <div class="menu_bar">
             <img class="logo_gobierno" src="/image/logo_gobierno.png" alt="">
             <a href="#consultar">
                 <div class="letter1">Inicio</div>
             </a>
-            <div class="letter2">¿Qué es?</div>
+            <a href="#ingreso">
+                <div class="letter2">¿Qué es?</div>
+            </a>
             <div class="letter3">Entrega</div>
+        <!--============ CUADRO CONSULTA =========-->
             <a href="#consultar">
                 <div class="letter4">Consultar</div>
             </a>
         </div>
         <div class="consulta">
+            <div class="consulta_estado">Consulta tu estado del
+                    <br>Ingreso
+                    <br>Solidario
+            </div>
+            <div class="consulta_ingreso">Por favor ingresa tus datos personales para revisar el estado de entrega
+                <br>de tu ingreso.
+            </div>
+            <div class="tipo_documento">
+                <p>Tipo de Documento</p>
+            </div>
+            <div class="select_document">
+                <select name="" id="documento">
+                    <option value=""> Cédula de ciudadanía</option>
+                    <option value=""> Tarjeta de identidad</option>
+                    <option value=""> Cédula de extranjería</option>
+                    <option value=""> Registro Civil</option>
+                    <option value=""> Pasaporte</option>
+                </select>
+            </div>
+            <div class="numero_documento">
+                <p>Numero de Documento</p>
+            </div>
+            <input class="numero"type="number">
+            <div class="primer_nombre">
+                <p>Primer Nombre</p>
+            </div>
+            <input class="nombre"type="text">
+            <div class="primer_apellido">
+                <p>Primer Apellido</p>
+            </div>
+            <input class="apellido"type="text">
+            <div class="fecha_documento">
+                <p>Fecha de expedición del documento</p>
+            </div>
+            <input class="fecha" type="date" required>
+            <div class="numero_telefono">
+                <p>Teléfono Móvil</p>
+            </div>
+            <input class="num_telefono"type="number">
+            <div class="Boton_Consultar">Consultar</div>
         </div>
+        <!--============ INFORMACION INGRESO =========-->
         <div class="ingreso">Ingreso Solidario</div>
         <div class="debido">Debido a la situación generada por el COVID-19, 
             <br> el gobierno nacional aportará a las familias más afectadas
             <br>y que no pertenezcan a ningún programa social,
             <br>un subsidio por $160.000
         </div>
+        <a href="#ingreso">
+            <div class="Boton_ConocerMas">Conocer más</div>
+        </a>
+        <!--=================================-->
+        <!--============ PAGINA DOS =========-->
+        <!--=================================-->
+        <div class="pregunta">
+            <p>¿Qué es el Ingreso Solidario?</p>
+        </div>
+        <div class="info_esquema">
+            Es un esquema mediante el cual se entrega una
+            <br>transferencia monetaria en favor de los hogares
+            <br>en situación de pobreza y vulnerabilidad que
+            <br>no sean beneficiarios de programas sociales con el Estado.
+            <br>
+            <br>los hogares en condición de pobreza
+            <br>y vulnerabilidad, afectados en sus
+            <br>ingresos como consecuencia de la pandemia del coronavirus
+            <br>, que no hagan parte de los programas sociales
+            <br>"Familias en Acción","Colombia Mayor","
+            <br>Jóvenes en Acción" y "Devolución del IVA"
+            <br>podrán acceder a esta medida social.
+        </div>
+        <img class="logo_esquema" src="/image/image.png" id="ingreso" alt="">
+        <div class="etapas">
+            Conocer las etapas de entrega
+        </div>
+        <img class="flecha_etapa" src="/image/flecha.svg" alt="">
+        <!--=================================-->
+        <!--============ PAGINA TRES ========-->
+        <!--=================================-->
     </div>
     
 </body>
