@@ -21,7 +21,7 @@ body{
 .container{
     position: absolute;
     width: 100vw;
-    height: 200vh;
+    height: 400vh;
 }
 /* ==========================================*/
 /* ================ PAGINA UNO ==============*/
@@ -313,6 +313,13 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 /* ==========================================*/
 /* ================ PAGINA DOS ==============*/
 /* ==========================================*/
+.invisible2{
+    position:absolute;
+    top: 57.5vw;
+    left: 34vw;
+    width: 10vw;
+    height: 3vw;
+}
 .pregunta{
     position:absolute;
     font-family: Myriad_Pro_Light;
@@ -331,10 +338,11 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 .logo_esquema{
     position:absolute;
-    top: 68vw;
-    left: 49.3vw;
-    width: 54.3vw;
+    top: 67.5vw;
+    left: 60vw;
+    width: 31vw;
 }
+/* ============ INFO ENTREGA ===============*/
 .etapas{
     position:absolute;
     font-family: Myriad_Pro_Light;
@@ -351,3 +359,128 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 /* ==========================================*/
 /* ================ PAGINA TRES =============*/
 /* ==========================================*/
+.invisible3{
+    position:absolute;
+    top: 104.5vw;
+    left: 34vw;
+    width: 10vw;
+    height: 3vw;
+}
+.etapas_entrega{
+    position:absolute;
+    font-family: Myriad_Pro_Light;
+    font-size: 3vw;
+    top: 114vw;
+    left: 39vw;
+}
+a[href="#entrega"] {
+    text-decoration: none;
+    color: inherit;
+}
+/* ============ ETAPAS ===============*/
+.etapa_1{
+    position:absolute;
+    font-family: Myriad_Pro_Light;
+    font-size: 2.5vw;
+    top: 120vw;
+    left: 18vw;
+}
+.etapa_2{
+    position:absolute;
+    font-family: Myriad_Pro_Light;
+    font-size: 2.5vw;
+    top: 120vw;
+    left: 46vw;
+}
+.etapa_3{
+    position:absolute;
+    font-family: Myriad_Pro_Light;
+    font-size: 2.5vw;
+    top: 120vw;
+    left: 75vw;
+}
+/* ============ FECHA ETAPAS ===============*/
+.fecha_etapa_1{
+    position:absolute;
+    font-family: Myriad_Pro_Regular;
+    font-size: 2.5vw;
+    top: 126vw;
+    left: 12vw;
+}
+.fecha_etapa_2{
+    position:absolute;
+    font-family: Myriad_Pro_Regular;
+    font-size: 2.5vw;
+    top: 126vw;
+    left: 37.5vw;
+}
+.fecha_etapa_3{
+    position:absolute;
+    font-family: Myriad_Pro_Regular;
+    font-size: 2.5vw;
+    top: 126vw;
+    left: 66.3vw;
+}
+/* ============ BANCOS ===============*/
+.banco{
+    position:absolute;
+    font-family: Myriad_Pro_Light;
+    font-size: 2.85vw;
+    top: 133vw;
+    left: 38.5vw;
+}
+.bancamia{
+    position:absolute;
+    top: 140vw;
+    top: 137vw;
+    left: 12vw;
+    width: 22vw;
+}
+.bancolombia{
+    position:absolute;
+    top: 134vw;
+    left: 36.5vw;
+    width: 27vw;
+}
+.banco_caja_social{
+    position:absolute;
+    top: 139vw;
+    left: 66.3vw;
+    width: 27vw;
+}
+.movii{
+    position:absolute;
+    top: 149.2vw;
+    left: 33.8vw;
+    width: 12.5vw;
+}
+.daviplata{
+    position:absolute;
+    top: 145vw;
+    left: 50.5vw;
+    width: 16vw;
+}
+/* ============ PREGUNTAS ===============*/
+.pregunta_frecuente{
+    position:absolute;
+    font-family: Myriad_Pro_Light;
+    font-size: 1.14vw;
+    top: 156.7vw;
+    left: 45vw;
+}
+.flecha_pregunta{
+    position:absolute;
+    top: 158.7vw;
+    left: 49vw;
+    width: 1.5vw;
+}
+/* ==========================================*/
+/* ================ PAGINA CUATRO =============*/
+/* ==========================================*/
+.frecuentes{
+    position:absolute;
+    font-family: Myriad_Pro_Light;
+    font-size: 3vw;
+    top: 165vw;
+    left: 45vw;
+}
