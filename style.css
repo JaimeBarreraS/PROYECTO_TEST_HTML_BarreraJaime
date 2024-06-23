@@ -10,6 +10,10 @@
     font-family: Myriad_Pro_Bold;
     src: url(/font/MYRIADPRO-BOLD.OTF);
 }
+@font-face{
+    font-family: Myriad_Pro_Semibold_SemiCondensed_Italic;
+    src: url(/font/Myriad\ Pro\ Semibold\ SemiCondensed\ Italic.otf);
+}
 html {
     scroll-behavior: smooth;
 }
@@ -354,7 +358,11 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     position:absolute;
     top: 111vw;
     left: 29vw;
-    width: 1.5vw;
+    width: 1.2vw;
+}
+a[href="#entrega"] {
+    text-decoration: none;
+    color: inherit;
 }
 /* ==========================================*/
 /* ================ PAGINA TRES =============*/
@@ -373,29 +381,26 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     top: 114vw;
     left: 39vw;
 }
-a[href="#entrega"] {
-    text-decoration: none;
-    color: inherit;
-}
+
 /* ============ ETAPAS ===============*/
 .etapa_1{
     position:absolute;
     font-family: Myriad_Pro_Light;
-    font-size: 2.5vw;
+    font-size: 2.4vw;
     top: 120vw;
     left: 18vw;
 }
 .etapa_2{
     position:absolute;
     font-family: Myriad_Pro_Light;
-    font-size: 2.5vw;
+    font-size: 2.4vw;
     top: 120vw;
     left: 46vw;
 }
 .etapa_3{
     position:absolute;
     font-family: Myriad_Pro_Light;
-    font-size: 2.5vw;
+    font-size: 2.4vw;
     top: 120vw;
     left: 75vw;
 }
@@ -471,16 +476,195 @@ a[href="#entrega"] {
 .flecha_pregunta{
     position:absolute;
     top: 158.7vw;
-    left: 49vw;
-    width: 1.5vw;
+    left: 49.2vw;
+    width: 1.2vw;
+}
+a[href="#preguntas"] {
+    text-decoration: none;
+    color: inherit;
 }
 /* ==========================================*/
 /* ================ PAGINA CUATRO =============*/
 /* ==========================================*/
+.invisible4{
+    position:absolute;
+    top: 153.5vw;
+    left: 34vw;
+    width: 10vw;
+    height: 3vw;
+}
 .frecuentes{
     position:absolute;
     font-family: Myriad_Pro_Light;
     font-size: 3vw;
-    top: 165vw;
-    left: 45vw;
+    top: 163vw;
+    left: 37.5vw;
+}
+/* ============ PREGUNTA UNO ===============*/
+.azul1{
+    position:absolute;
+    top: 167.5vw;
+    left: 48.7vw;
+    background-color: #157ffb;
+    color: white;
+    width: 2.5vw;
+    height: 1.7vw;
+    text-align: center;
+    padding-top: 0.8vw;
+    border-radius: 1.5vw;
+    font-size: 0.8vw;
+    font-family: Myriad_Pro_Light;
+}
+.pregunta_1{
+    position:absolute;
+    font-family: Myriad_Pro_Semibold_SemiCondensed_Italic;
+    font-size: 2.4vw;
+    text-align: center;
+    top: 171vw;
+    left: 16.5vw;
+}
+.respuesta_1{
+    position:absolute;
+    font-family: Myriad_Pro_Light;
+    font-size: 1.85vw;
+    text-align: center;
+    line-height: 1.5;
+    top: 179vw;
+    left: 24.5vw;
+}
+/* ============ PREGUNTA DOS ===============*/
+.azul2{
+    position:absolute;
+    top: 190vw;
+    left: 48.7vw;
+    background-color: #157ffb;
+    color: white;
+    width: 2.5vw;
+    height: 1.7vw;
+    text-align: center;
+    padding-top: 0.8vw;
+    border-radius: 1.5vw;
+    font-size: 0.8vw;
+    font-family: Myriad_Pro_Light;
+}
+.pregunta_2{
+    position:absolute;
+    font-family: Myriad_Pro_Semibold_SemiCondensed_Italic;
+    font-size: 2.4vw;
+    top: 193.5vw;
+    left: 10vw;
+}
+.respuesta_2{
+    position:absolute;
+    font-family: Myriad_Pro_Light;
+    font-size: 1.85vw;
+    text-align: center;
+    line-height: 1.5;
+    top: 197vw;
+    left: 24.5vw;
+}
+/* ============ VER MÁS ===============*/
+.ver_mas{
+    position:absolute;
+    font-family: Myriad_Pro_Light;
+    font-size: 1.14vw;
+    top: 206vw;
+    left: 47vw;
+}
+.flecha_ver{
+    position:absolute;
+    top: 208vw;
+    left: 48vw;
+    width: 1.2vw;
+}
+a[href="#preguntas2"] {
+    text-decoration: none;
+    color: inherit;
+}
+/* ==========================================*/
+/* ================ PAGINA CINCO =============*/
+/* ==========================================*/
+.invisible5{
+    position:absolute;
+    top: 210.5vw;
+    left: 34vw;
+    width: 10vw;
+    height: 3vw;
+}
+/* ============ PREGUNTA TRES ===============*/
+.azul3{
+    position:absolute;
+    top: 214vw;
+    left: 48.7vw;
+    background-color: #157ffb;
+    color: white;
+    width: 2.5vw;
+    height: 1.7vw;
+    text-align: center;
+    padding-top: 0.8vw;
+    border-radius: 1.5vw;
+    font-size: 0.8vw;
+    font-family: Myriad_Pro_Light;
+}
+.pregunta_3{
+    position:absolute;
+    font-family: Myriad_Pro_Semibold_SemiCondensed_Italic;
+    font-size: 2.4vw;
+    top: 217.5vw;
+    left: 7vw;
+}
+.respuesta_3{
+    position:absolute;
+    font-family: Myriad_Pro_Light;
+    font-size: 1.85vw;
+    text-align: center;
+    line-height: 1.5;
+    top: 221vw;
+    left: 11vw;
+}
+/* ============ PREGUNTA CUATRO ===============*/
+.azul4{
+    position:absolute;
+    top: 238.5vw;
+    left: 48.7vw;
+    background-color: #157ffb;
+    color: white;
+    width: 2.5vw;
+    height: 1.7vw;
+    text-align: center;
+    padding-top: 0.8vw;
+    border-radius: 1.5vw;
+    font-size: 0.8vw;
+    font-family: Myriad_Pro_Light;
+}
+.pregunta_4{
+    position:absolute;
+    font-family: Myriad_Pro_Semibold_SemiCondensed_Italic;
+    text-align: center;
+    font-size: 2.4vw;
+    top: 241.5vw;
+    left: 17.5vw;
+}
+.respuesta_4{
+    position:absolute;
+    font-family: Myriad_Pro_Light;
+    font-size: 1.85vw;
+    text-align: center;
+    line-height: 1.5;
+    top: 247.5vw;
+    left: 2.3vw;
+}
+/* ============ VER MÁS ===============*/
+.ver_mas2{
+    position:absolute;
+    font-family: Myriad_Pro_Light;
+    font-size: 1.14vw;
+    top: 256.5vw;
+    left: 47vw;
+}
+.flecha_ver2{
+    position:absolute;
+    top: 258.5vw;
+    left: 48vw;
+    width: 1.2vw;
 }

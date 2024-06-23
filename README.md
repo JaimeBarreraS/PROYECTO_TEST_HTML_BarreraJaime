@@ -22,7 +22,7 @@ La página incluye un encabezado fijo con el logotipo del gobierno y una barra d
 
 ## Estructura del proyecto
 
-![alt text](<Captura de pantalla 2024-06-21 183238.png>)
+![alt text](proyecto-1.png)
 
 - La carpeta `font/` contiene las fuentes personalizadas utilizadas en el proyecto.
 - La carpeta `image/` contiene las imágenes utilizadas en la página web.
