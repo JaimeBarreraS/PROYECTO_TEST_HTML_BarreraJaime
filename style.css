@@ -25,7 +25,8 @@ body{
 .container{
     position: absolute;
     width: 100vw;
-    height: 400vh;
+    height: 305vw;
+    overflow: hidden;
 }
 /* ==========================================*/
 /* ================ PAGINA UNO ==============*/
@@ -574,7 +575,7 @@ a[href="#preguntas"] {
 .flecha_ver{
     position:absolute;
     top: 208vw;
-    left: 48vw;
+    left: 48.2vw;
     width: 1.2vw;
 }
 a[href="#preguntas2"] {
@@ -586,7 +587,7 @@ a[href="#preguntas2"] {
 /* ==========================================*/
 .invisible5{
     position:absolute;
-    top: 210.5vw;
+    top: 204vw;
     left: 34vw;
     width: 10vw;
     height: 3vw;
@@ -659,12 +660,120 @@ a[href="#preguntas2"] {
     position:absolute;
     font-family: Myriad_Pro_Light;
     font-size: 1.14vw;
-    top: 256.5vw;
+    top: 256.2vw;
     left: 47vw;
 }
 .flecha_ver2{
     position:absolute;
-    top: 258.5vw;
-    left: 48vw;
+    top: 258vw;
+    left: 48.2vw;
     width: 1.2vw;
+}
+a[href="#gov"] {
+    text-decoration: none;
+    color: inherit;
+}
+/* ==========================================*/
+/* ================ PAGINA SEIS =============*/
+/* ==========================================*/
+.invisible6{
+    position:absolute;
+    top: 250.5vw;
+    left: 34vw;
+    width: 10vw;
+    height: 3vw;
+}
+.azul5{
+    position:absolute;
+    top: 260.5vw;
+    left: 48.7vw;
+    background-color: #157ffb;
+    color: white;
+    width: 2.5vw;
+    height: 1.7vw;
+    text-align: center;
+    padding-top: 0.8vw;
+    border-radius: 1.5vw;
+    font-size: 0.8vw;
+    font-family: Myriad_Pro_Light;
+}
+.pregunta_5{
+    position:absolute;
+    font-family: Myriad_Pro_Semibold_SemiCondensed_Italic;
+    text-align: center;
+    font-size: 2.4vw;
+    top: 264vw;
+    left: 3vw;
+}
+.respuesta_5{
+    position:absolute;
+    font-family: Myriad_Pro_Light;
+    font-size: 1.85vw;
+    text-align: center;
+    line-height: 1.5;
+    top: 268vw;
+    left: 25.5vw;
+}
+.cuadro_azul{
+    position: absolute;
+    top: 278vw;
+    left: 3vw;
+    background-color: #157ffb;
+    width: 92.5vw;
+    height: 15vw;
+    border-radius: 3.5vw;
+}
+.pregunta_cuadro{
+    position: absolute;
+    color: white;
+    font-family: Myriad_Pro_Bold;
+    font-size: 3vw;
+    top: 1.3vw;
+    left: 31vw;
+}
+.respuesta_cuadro{
+    position: absolute;
+    color: white;
+    font-size: 1.85vw;
+    font-family: Myriad_Pro_Light;
+    top: 6vw;
+    left: 15vw;
+}
+.contactanos{
+    position: absolute;
+    font-family: Myriad_Pro_Light;
+    font-size: 0.9vw;
+    background-color: white;
+    top: 10vw;
+    left: 42vw;
+    width: 9vw;
+    text-align: center;
+    height: 1.8vw;
+    padding-top: 0.6vw;
+    font-weight: bold;
+    border-radius: 0.8vw;
+}
+.bottom{
+    position: absolute;
+    top:297vw;
+    width: 100%;
+}
+.twitter{
+    position: absolute;
+    top:302.5vw;
+    width: 2vw;
+    left: 48vw;
+}
+.instagram{
+    position: absolute;
+    width: 1.8vw;
+    left: 50.2vw;
+    top:302.6vw;
+}
+.facebook{
+    position: absolute;
+    top: 295vw;
+    width: 2vw;
+    left: 52vw;
+    top:302.4vw;
 }
