@@ -1,18 +1,18 @@
 @font-face{
     font-family: Myriad_Pro_Light;
-    src: url(/font/MyriadPro-Light.otf);
+    src: url(font/MyriadPro-Light.otf);
 }
 @font-face{
     font-family: Myriad_Pro_Regular;
-    src: url(/font/MYRIADPRO-REGULAR.OTF);
+    src: url(font/MYRIADPRO-REGULAR.OTF);
 }
 @font-face{
     font-family: Myriad_Pro_Bold;
-    src: url(/font/MYRIADPRO-BOLD.OTF);
+    src: url(font/MYRIADPRO-BOLD.OTF);
 }
 @font-face{
     font-family: Myriad_Pro_Semibold_SemiCondensed_Italic;
-    src: url(/font/Myriad\ Pro\ Semibold\ SemiCondensed\ Italic.otf);
+    src: url(font/Myriad\ Pro\ Semibold\ SemiCondensed\ Italic.otf);
 }
 html {
     scroll-behavior: smooth;
