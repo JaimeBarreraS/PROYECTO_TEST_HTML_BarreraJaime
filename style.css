@@ -138,7 +138,7 @@ body{
     right: 2.1vw;
     width: 1.2vw;
     height: 1.2vw;
-    background-image: url(/image/flecha.svg);
+    background-image: url(image/flecha.svg);
     background-size: contain;
     background-repeat: no-repeat;
     pointer-events: none;
